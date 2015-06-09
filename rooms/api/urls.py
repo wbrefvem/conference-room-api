@@ -3,7 +3,7 @@ from rest_framework import routers
 from rooms.api import views
 
 
-router = routers.DefaultRouter()
+router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'buildings', views.BuildingViewSet)
 router.register(r'rooms', views.RoomViewSet)
 
