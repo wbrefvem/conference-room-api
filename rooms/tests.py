@@ -70,7 +70,7 @@ class JSONRendererTestCase(TestCase):
             )
 
             building_serializer = serializers.BuildingSerializer(building)
-            expected_building = json.dumps({'room': building_serializer.data})
+            expected_building = json.dumps({'building': building_serializer.data})
 
             self.assertEqual(actual_building, expected_building)
 
