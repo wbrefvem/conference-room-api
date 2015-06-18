@@ -14,6 +14,12 @@ for fixture in fixtures:
 
     for item in fixture['items']:
         new_items = {}
+        try:
+            if item['hasUsageRestrictions'] == True and item['usageRestrictions'] == 'None':
+                item['hasUsageRestrictions'] = False
+                item['usageRestrictions'] = 'n/a'
+        except KeyError:
+            pass
         for key, value in item.items():
             new_items.update({inflection.underscore(key): value})
 
