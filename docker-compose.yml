@@ -1,6 +1,7 @@
 db:
   image: postgres
   command: tail -f /dev/null
+  ports: "5432:55432"
 web:
   build: .
   command: python manage.py runserver 0.0.0.0:8000
