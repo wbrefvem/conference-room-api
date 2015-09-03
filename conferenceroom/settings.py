@@ -65,7 +65,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'postgres',
         'USER': 'postgres',
-        'HOST': 'conferenceroomapi_db_1',
+        'HOST': 'localhost',
         'PORT': 5432,
     }
 }
