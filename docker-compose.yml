@@ -9,7 +9,7 @@ gunicorn:
   links:
     - postgres
   ports:
-    - "8000:8000"
+    - "8000"
 nginx:
   build: .
   command: nginx
