@@ -5,8 +5,6 @@ gunicorn:
   command: gunicorn -b 8000 -w 4 conferenceroom.wsgi -c /code/conferenceroom/settings.py
   volumes:
     - .:/code
-  ports:
-    - "8000:8000"
   links:
     - postgres
 nginx:
@@ -16,3 +14,5 @@ nginx:
     - ./nginx.conf:/etc/nginx/nginx.conf
   links:
     - gunicorn
+  ports:
+    - "8008:8008"
