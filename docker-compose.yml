@@ -3,7 +3,7 @@ postgres:
 gunicorn:
   image: wbrefvem/conference-room-api:v1
   working_dir: /code
-  command: gunicorn -b 8000 -w 4 conferenceroom.wsgi -c /code/conferenceroom/settings.py --loglevel=debug
+  command: gunicorn -b 8000 -w 4 conferenceroom.wsgi -c /code/conferenceroom/settings.py --log-level debug
   volumes:
     - .:/code
   links:
