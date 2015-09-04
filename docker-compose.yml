@@ -12,6 +12,7 @@ nginx:
   command: nginx
   volumes:
     - ./nginx.conf:/etc/nginx/nginx.conf
+    - ./staticfiles:/usr/share/nginx/html
   links:
     - gunicorn
   ports:
