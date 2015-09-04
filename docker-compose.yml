@@ -1,6 +1,5 @@
 db:
   image: wbrefvem/conference-room-db:v3
-  command: tar xvf /backup/backup.tar /var/lib/postgresql/data --overwrite
 web:
   image: wbrefvem/conference-room-api:v1
   command: python manage.py runserver 0.0.0.0:8000
