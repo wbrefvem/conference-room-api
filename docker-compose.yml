@@ -2,7 +2,7 @@ db:
   image: wbrefvem/conference-room-db:v3
 web:
   image: wbrefvem/conference-room-api:v1
-  command: python manage.py runserver 0.0.0.0:8000
+  command: gunicorn -b 8000 -w 4 conferenceroom.wsgi -c /code/conferenceroom/settings.py
   volumes:
     - .:/code
   ports:
