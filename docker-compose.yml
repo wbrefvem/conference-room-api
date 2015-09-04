@@ -1,6 +1,6 @@
-db:
+postgres:
   image: wbrefvem/conference-room-db:v3
-web:
+gunicorn:
   image: wbrefvem/conference-room-api:v1
   command: gunicorn -b 8000 -w 4 conferenceroom.wsgi -c /code/conferenceroom/settings.py
   volumes:
@@ -8,4 +8,10 @@ web:
   ports:
     - "8000:8000"
   links:
-    - db
+    - postgres
+nginx:
+  build: .
+  volumes:
+    - ./static:/static
+  links:
+    - gunicorn
