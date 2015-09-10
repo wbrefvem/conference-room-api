@@ -8,8 +8,6 @@ gunicorn:
     - .:/code
   links:
     - postgres
-  ports:
-    - "8000:8000"
 nginx:
   image: wbrefvem/conference-room-nginx:v1
   command: nginx
