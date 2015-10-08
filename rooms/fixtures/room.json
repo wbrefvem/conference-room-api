@@ -1,1 +1,767 @@
-[{"pk": 1, "model": "rooms.room", "fields": {"building": 1, "seating": "12", "network": false, "usage_restrictions": "Restrictions exist", "has_usage_restrictions": true, "room_number": "112", "display": true, "phone": false, "manager": "Finance, Andrea Waters", "room_type": "Conference Room", "general_usage": true}}, {"pk": 2, "model": "rooms.room", "fields": {"building": 1, "seating": "200", "network": false, "usage_restrictions": "Restrictions exist", "has_usage_restrictions": true, "room_number": "201", "display": true, "phone": false, "manager": "City Manager's Office", "room_type": "Council Chamber", "general_usage": true}}, {"pk": 3, "model": "rooms.room", "fields": {"building": 1, "seating": "12", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "213", "display": false, "phone": false, "manager": "City Council", "room_type": "Conference Room", "general_usage": false}}, {"pk": 4, "model": "rooms.room", "fields": {"building": 1, "seating": "12", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "228", "display": false, "phone": false, "manager": "City Manager's Office", "room_type": "Conference Room", "general_usage": false}}, {"pk": 5, "model": "rooms.room", "fields": {"building": 1, "seating": "25", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "303", "display": true, "phone": false, "manager": "Parks, Recreation and Cultural Resources / Facilities & Operations", "room_type": "Conference Room", "general_usage": true}}, {"pk": 6, "model": "rooms.room", "fields": {"building": 1, "seating": "30", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "305", "display": true, "phone": false, "manager": "City Manager's Office", "room_type": "Conference Room", "general_usage": true}}, {"pk": 7, "model": "rooms.room", "fields": {"building": 1, "seating": "8", "network": true, "usage_restrictions": "Restrictions exist", "has_usage_restrictions": true, "room_number": "408", "display": false, "phone": false, "manager": "Public Works, Sherry Davis", "room_type": "Conference Room", "general_usage": true}}, {"pk": 8, "model": "rooms.room", "fields": {"building": 1, "seating": "10", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "419", "display": true, "phone": false, "manager": "Public Works, Sherry Davis", "room_type": "Conference Room", "general_usage": true}}, {"pk": 9, "model": "rooms.room", "fields": {"building": 1, "seating": "14", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "516", "display": true, "phone": false, "manager": "Information Technology, April Webb", "room_type": "Conference Room", "general_usage": true}}, {"pk": 10, "model": "rooms.room", "fields": {"building": 1, "seating": "10", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "601", "display": true, "phone": false, "manager": "Parks, Recreation and Cultural Resources", "room_type": "Conference Room", "general_usage": false}}, {"pk": 11, "model": "rooms.room", "fields": {"building": 1, "seating": "10", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "609", "display": true, "phone": false, "manager": "Parks, Recreation and Cultural Resources", "room_type": "Conference Room", "general_usage": false}}, {"pk": 12, "model": "rooms.room", "fields": {"building": 2, "seating": "0", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "312", "display": false, "phone": false, "manager": "Public Works, Debbie Wyatt", "room_type": "Conference Room", "general_usage": true}}, {"pk": 13, "model": "rooms.room", "fields": {"building": 2, "seating": "20", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "601", "display": false, "phone": false, "manager": "Public Utilities", "room_type": "Conference Room", "general_usage": false}}, {"pk": 14, "model": "rooms.room", "fields": {"building": 2, "seating": "10", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "602", "display": false, "phone": false, "manager": "Public Utilities", "room_type": "Conference Room", "general_usage": false}}, {"pk": 15, "model": "rooms.room", "fields": {"building": 2, "seating": "40", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "701", "display": false, "phone": false, "manager": "Parks, Recreation and Cultural Resources / Facilities & Operations", "room_type": "Conference Room", "general_usage": true}}, {"pk": 16, "model": "rooms.room", "fields": {"building": 2, "seating": "10", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "900-A", "display": true, "phone": false, "manager": "Information Technology, April Webb", "room_type": "Conference Room", "general_usage": true}}, {"pk": 17, "model": "rooms.room", "fields": {"building": 2, "seating": "0", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "1001", "display": false, "phone": false, "manager": "City Attorney", "room_type": "Conference Room", "general_usage": false}}, {"pk": 18, "model": "rooms.room", "fields": {"building": 3, "seating": "8", "network": true, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "-1", "display": false, "phone": false, "manager": "Community Development, Judy Blaeske", "room_type": "Conference Room", "general_usage": true}}, {"pk": 19, "model": "rooms.room", "fields": {"building": 4, "seating": "20", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "303", "display": true, "phone": false, "manager": "Human Resources / Organization Development & Training", "room_type": "Unknown", "general_usage": false}}, {"pk": 20, "model": "rooms.room", "fields": {"building": 4, "seating": "12", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "400", "display": false, "phone": false, "manager": "Risk Management / Internal Audit", "room_type": "Board Room", "general_usage": false}}, {"pk": 21, "model": "rooms.room", "fields": {"building": 5, "seating": "25", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "-1", "display": true, "phone": false, "manager": "Planning & Development, Rotonda McKoy", "room_type": "Conference Room", "general_usage": true}}, {"pk": 22, "model": "rooms.room", "fields": {"building": 6, "seating": "10", "network": true, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "415", "display": false, "phone": false, "manager": "Solid Waste Services", "room_type": "Conference Room", "general_usage": true}}, {"pk": 23, "model": "rooms.room", "fields": {"building": 6, "seating": "18", "network": true, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "421", "display": false, "phone": false, "manager": "Solid Waste Services, Patricia Bullock-Peacock", "room_type": "Conference Room", "general_usage": true}}, {"pk": 24, "model": "rooms.room", "fields": {"building": 6, "seating": "18", "network": true, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "433", "display": false, "phone": false, "manager": "Solid Waste Services, Patricia Bullock-Peacock", "room_type": "Conference Room", "general_usage": true}}, {"pk": 25, "model": "rooms.room", "fields": {"building": 6, "seating": "18", "network": true, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "420", "display": false, "phone": false, "manager": "Solid Waste Services, Patricia Bullock-Peacock", "room_type": "Conference Room", "general_usage": true}}, {"pk": 26, "model": "rooms.room", "fields": {"building": 6, "seating": "18", "network": true, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "434", "display": false, "phone": false, "manager": "Solid Waste Services, Patricia Bullock-Peacock", "room_type": "Conference Room", "general_usage": true}}, {"pk": 27, "model": "rooms.room", "fields": {"building": 6, "seating": "8", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "442", "display": true, "phone": false, "manager": "Solid Waste Services", "room_type": "Conference Room", "general_usage": true}}, {"pk": 28, "model": "rooms.room", "fields": {"building": 6, "seating": "250", "network": true, "usage_restrictions": "Limited to after 9 a.m.", "has_usage_restrictions": true, "room_number": "448", "display": false, "phone": false, "manager": "Solid Waste Services", "room_type": "Gathering Room", "general_usage": true}}, {"pk": 29, "model": "rooms.room", "fields": {"building": 7, "seating": "12", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "-1", "display": false, "phone": false, "manager": "Public Utilities", "room_type": "Conference Room", "general_usage": true}}, {"pk": 30, "model": "rooms.room", "fields": {"building": 7, "seating": "100", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "-1", "display": true, "phone": false, "manager": "Public Utilities", "room_type": "Training Room", "general_usage": true}}, {"pk": 31, "model": "rooms.room", "fields": {"building": 8, "seating": "40", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "-1", "display": true, "phone": false, "manager": "Public Utilities", "room_type": "Training Room", "general_usage": true}}, {"pk": 32, "model": "rooms.room", "fields": {"building": 9, "seating": "40", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "-1", "display": true, "phone": false, "manager": "Public Utilities", "room_type": "Conference Room", "general_usage": true}}, {"pk": 33, "model": "rooms.room", "fields": {"building": 10, "seating": "50", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "111", "display": true, "phone": false, "manager": "Public Utilities", "room_type": "Conference Room", "general_usage": true}}, {"pk": 34, "model": "rooms.room", "fields": {"building": 10, "seating": "50", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "112", "display": true, "phone": false, "manager": "Public Utilities", "room_type": "Conference Room", "general_usage": true}}, {"pk": 35, "model": "rooms.room", "fields": {"building": 11, "seating": "0", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "-1", "display": false, "phone": false, "manager": "Parks, Recreation and Cultural Resources", "room_type": "Conference Room", "general_usage": false}}, {"pk": 36, "model": "rooms.room", "fields": {"building": 12, "seating": "20", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "-1", "display": true, "phone": false, "manager": "Police", "room_type": "Conference Room", "general_usage": false}}, {"pk": 37, "model": "rooms.room", "fields": {"building": 13, "seating": "4", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "103", "display": false, "phone": false, "manager": "Public Works / Transit Admin", "room_type": "Conference Room", "general_usage": false}}, {"pk": 38, "model": "rooms.room", "fields": {"building": 13, "seating": "10", "network": true, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "209", "display": false, "phone": false, "manager": "Public Works / Transit Admin", "room_type": "Conference Room", "general_usage": false}}, {"pk": 39, "model": "rooms.room", "fields": {"building": 13, "seating": "10", "network": true, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "218", "display": false, "phone": false, "manager": "Public Works / Transit Admin", "room_type": "Conference Room", "general_usage": false}}, {"pk": 40, "model": "rooms.room", "fields": {"building": 13, "seating": "10", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "253", "display": false, "phone": false, "manager": "Public Works / Transit Operations", "room_type": "Conference Room", "general_usage": false}}, {"pk": 41, "model": "rooms.room", "fields": {"building": 13, "seating": "10", "network": true, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "406", "display": false, "phone": false, "manager": "Public Works / Transit Admin", "room_type": "Conference Room", "general_usage": false}}, {"pk": 42, "model": "rooms.room", "fields": {"building": 14, "seating": "20", "network": true, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "-1", "display": false, "phone": false, "manager": "Police", "room_type": "Unknown", "general_usage": false}}, {"pk": 43, "model": "rooms.room", "fields": {"building": 15, "seating": "100", "network": true, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "-1", "display": false, "phone": false, "manager": "Police", "room_type": "Unknown", "general_usage": false}}, {"pk": 44, "model": "rooms.room", "fields": {"building": 16, "seating": "10", "network": false, "usage_restrictions": "n/a", "has_usage_restrictions": false, "room_number": "-1", "display": false, "phone": false, "manager": "Public Utilities", "room_type": "Conference Room", "general_usage": true}}]
+[
+{
+    "fields": {
+        "building": 1,
+        "seating": 12,
+        "general_usage": true,
+        "usage_restrictions": "Restrictions exist",
+        "has_usage_restrictions": true,
+        "room_number": "112",
+        "display": true,
+        "phone": false,
+        "manager": "Finance, Andrea Waters",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 1
+},
+{
+    "fields": {
+        "building": 1,
+        "seating": 200,
+        "general_usage": true,
+        "usage_restrictions": "Restrictions exist",
+        "has_usage_restrictions": true,
+        "room_number": "201",
+        "display": true,
+        "phone": false,
+        "manager": "City Manager's Office",
+        "room_type": "Council Chamber",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 2
+},
+{
+    "fields": {
+        "building": 1,
+        "seating": 12,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "213",
+        "display": false,
+        "phone": false,
+        "manager": "City Council",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 3
+},
+{
+    "fields": {
+        "building": 1,
+        "seating": 12,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "228",
+        "display": false,
+        "phone": false,
+        "manager": "City Manager's Office",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 4
+},
+{
+    "fields": {
+        "building": 1,
+        "seating": 25,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "303",
+        "display": true,
+        "phone": false,
+        "manager": "Parks, Recreation and Cultural Resources / Facilities & Operations",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 5
+},
+{
+    "fields": {
+        "building": 1,
+        "seating": 30,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "305",
+        "display": true,
+        "phone": false,
+        "manager": "City Manager's Office",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 6
+},
+{
+    "fields": {
+        "building": 1,
+        "seating": 8,
+        "general_usage": true,
+        "usage_restrictions": "Restrictions exist",
+        "has_usage_restrictions": true,
+        "room_number": "408",
+        "display": false,
+        "phone": false,
+        "manager": "Public Works, Sherry Davis",
+        "room_type": "Conference Room",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 7
+},
+{
+    "fields": {
+        "building": 1,
+        "seating": 10,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "419",
+        "display": true,
+        "phone": false,
+        "manager": "Public Works, Sherry Davis",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 8
+},
+{
+    "fields": {
+        "building": 1,
+        "seating": 14,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "516",
+        "display": true,
+        "phone": false,
+        "manager": "Information Technology, April Webb",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 9
+},
+{
+    "fields": {
+        "building": 1,
+        "seating": 10,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "601",
+        "display": true,
+        "phone": false,
+        "manager": "Parks, Recreation and Cultural Resources",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 10
+},
+{
+    "fields": {
+        "building": 1,
+        "seating": 10,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "609",
+        "display": true,
+        "phone": false,
+        "manager": "Parks, Recreation and Cultural Resources",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 11
+},
+{
+    "fields": {
+        "building": 2,
+        "seating": 0,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "312",
+        "display": false,
+        "phone": false,
+        "manager": "Public Works, Debbie Wyatt",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 12
+},
+{
+    "fields": {
+        "building": 2,
+        "seating": 20,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "601",
+        "display": false,
+        "phone": false,
+        "manager": "Public Utilities",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 13
+},
+{
+    "fields": {
+        "building": 2,
+        "seating": 10,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "602",
+        "display": false,
+        "phone": false,
+        "manager": "Public Utilities",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 14
+},
+{
+    "fields": {
+        "building": 2,
+        "seating": 40,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "701",
+        "display": false,
+        "phone": false,
+        "manager": "Parks, Recreation and Cultural Resources / Facilities & Operations",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 15
+},
+{
+    "fields": {
+        "building": 2,
+        "seating": 10,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "900-A",
+        "display": true,
+        "phone": false,
+        "manager": "Information Technology, April Webb",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 16
+},
+{
+    "fields": {
+        "building": 2,
+        "seating": 0,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "1001",
+        "display": false,
+        "phone": false,
+        "manager": "City Attorney",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 17
+},
+{
+    "fields": {
+        "building": 3,
+        "seating": 8,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "-1",
+        "display": false,
+        "phone": false,
+        "manager": "Community Development, Judy Blaeske",
+        "room_type": "Conference Room",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 18
+},
+{
+    "fields": {
+        "building": 4,
+        "seating": 20,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "303",
+        "display": true,
+        "phone": false,
+        "manager": "Human Resources / Organization Development & Training",
+        "room_type": "Unknown",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 19
+},
+{
+    "fields": {
+        "building": 4,
+        "seating": 12,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "400",
+        "display": false,
+        "phone": false,
+        "manager": "Risk Management / Internal Audit",
+        "room_type": "Board Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 20
+},
+{
+    "fields": {
+        "building": 5,
+        "seating": 25,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "-1",
+        "display": true,
+        "phone": false,
+        "manager": "Planning & Development, Rotonda McKoy",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 21
+},
+{
+    "fields": {
+        "building": 6,
+        "seating": 10,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "415",
+        "display": false,
+        "phone": false,
+        "manager": "Solid Waste Services",
+        "room_type": "Conference Room",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 22
+},
+{
+    "fields": {
+        "building": 6,
+        "seating": 18,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "421",
+        "display": false,
+        "phone": false,
+        "manager": "Solid Waste Services, Patricia Bullock-Peacock",
+        "room_type": "Conference Room",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 23
+},
+{
+    "fields": {
+        "building": 6,
+        "seating": 18,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "433",
+        "display": false,
+        "phone": false,
+        "manager": "Solid Waste Services, Patricia Bullock-Peacock",
+        "room_type": "Conference Room",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 24
+},
+{
+    "fields": {
+        "building": 6,
+        "seating": 18,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "420",
+        "display": false,
+        "phone": false,
+        "manager": "Solid Waste Services, Patricia Bullock-Peacock",
+        "room_type": "Conference Room",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 25
+},
+{
+    "fields": {
+        "building": 6,
+        "seating": 18,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "434",
+        "display": false,
+        "phone": false,
+        "manager": "Solid Waste Services, Patricia Bullock-Peacock",
+        "room_type": "Conference Room",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 26
+},
+{
+    "fields": {
+        "building": 6,
+        "seating": 8,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "442",
+        "display": true,
+        "phone": false,
+        "manager": "Solid Waste Services",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 27
+},
+{
+    "fields": {
+        "building": 6,
+        "seating": 250,
+        "general_usage": true,
+        "usage_restrictions": "Limited to after 9 a.m.",
+        "has_usage_restrictions": true,
+        "room_number": "448",
+        "display": false,
+        "phone": false,
+        "manager": "Solid Waste Services",
+        "room_type": "Gathering Room",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 28
+},
+{
+    "fields": {
+        "building": 7,
+        "seating": 12,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "-1",
+        "display": false,
+        "phone": false,
+        "manager": "Public Utilities",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 29
+},
+{
+    "fields": {
+        "building": 7,
+        "seating": 100,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "-1",
+        "display": true,
+        "phone": false,
+        "manager": "Public Utilities",
+        "room_type": "Training Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 30
+},
+{
+    "fields": {
+        "building": 8,
+        "seating": 40,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "-1",
+        "display": true,
+        "phone": false,
+        "manager": "Public Utilities",
+        "room_type": "Training Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 31
+},
+{
+    "fields": {
+        "building": 9,
+        "seating": 40,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "-1",
+        "display": true,
+        "phone": false,
+        "manager": "Public Utilities",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 32
+},
+{
+    "fields": {
+        "building": 10,
+        "seating": 50,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "111",
+        "display": true,
+        "phone": false,
+        "manager": "Public Utilities",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 33
+},
+{
+    "fields": {
+        "building": 10,
+        "seating": 50,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "112",
+        "display": true,
+        "phone": false,
+        "manager": "Public Utilities",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 34
+},
+{
+    "fields": {
+        "building": 11,
+        "seating": 0,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "-1",
+        "display": false,
+        "phone": false,
+        "manager": "Parks, Recreation and Cultural Resources",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 35
+},
+{
+    "fields": {
+        "building": 12,
+        "seating": 20,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "-1",
+        "display": true,
+        "phone": false,
+        "manager": "Police",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 36
+},
+{
+    "fields": {
+        "building": 13,
+        "seating": 4,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "103",
+        "display": false,
+        "phone": false,
+        "manager": "Public Works / Transit Admin",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 37
+},
+{
+    "fields": {
+        "building": 13,
+        "seating": 10,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "209",
+        "display": false,
+        "phone": false,
+        "manager": "Public Works / Transit Admin",
+        "room_type": "Conference Room",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 38
+},
+{
+    "fields": {
+        "building": 13,
+        "seating": 10,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "218",
+        "display": false,
+        "phone": false,
+        "manager": "Public Works / Transit Admin",
+        "room_type": "Conference Room",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 39
+},
+{
+    "fields": {
+        "building": 13,
+        "seating": 10,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "253",
+        "display": false,
+        "phone": false,
+        "manager": "Public Works / Transit Operations",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 40
+},
+{
+    "fields": {
+        "building": 13,
+        "seating": 10,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "406",
+        "display": false,
+        "phone": false,
+        "manager": "Public Works / Transit Admin",
+        "room_type": "Conference Room",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 41
+},
+{
+    "fields": {
+        "building": 14,
+        "seating": 20,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "-1",
+        "display": false,
+        "phone": false,
+        "manager": "Police",
+        "room_type": "Unknown",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 42
+},
+{
+    "fields": {
+        "building": 15,
+        "seating": 100,
+        "general_usage": false,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "-1",
+        "display": false,
+        "phone": false,
+        "manager": "Police",
+        "room_type": "Unknown",
+        "network": true
+    },
+    "model": "rooms.room",
+    "pk": 43
+},
+{
+    "fields": {
+        "building": 16,
+        "seating": 10,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "-1",
+        "display": false,
+        "phone": false,
+        "manager": "Public Utilities",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 44
+},
+{
+    "fields": {
+        "building": 1,
+        "seating": 4,
+        "general_usage": true,
+        "usage_restrictions": "n/a",
+        "has_usage_restrictions": false,
+        "room_number": "300",
+        "display": true,
+        "phone": false,
+        "manager": "Public Affairs",
+        "room_type": "Conference Room",
+        "network": false
+    },
+    "model": "rooms.room",
+    "pk": 45
+}
+]

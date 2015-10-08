@@ -1,1 +1,130 @@
-[{"pk": 1, "model": "rooms.building", "fields": {"address": "222 W. Hargett Street", "name": "Raleigh Municipal Building"}}, {"pk": 2, "model": "rooms.building", "fields": {"address": "1 Exchange Plaza", "name": "One Exchange Plaza"}}, {"pk": 3, "model": "rooms.building", "fields": {"address": "310 W Martin Street", "name": "Dillon Building"}}, {"pk": 4, "model": "rooms.building", "fields": {"address": "127 W Hargett Street", "name": "Professional Building"}}, {"pk": 5, "model": "rooms.building", "fields": {"address": "220 Fayetteville Street", "name": "Urban Design Center"}}, {"pk": 6, "model": "rooms.building", "fields": {"address": "630 Beacon Lake Drive", "name": "Wilders Grove Solid Waste Facility"}}, {"pk": 7, "model": "rooms.building", "fields": {"address": "8500 Battle Bridge Road", "name": "Neuse River Waste Water Treatment Plant"}}, {"pk": 8, "model": "rooms.building", "fields": {"address": "2315 Benson Road", "name": "Dempsey E. Benton Water Treatment Plant"}}, {"pk": 9, "model": "rooms.building", "fields": {"address": "10301 Falls of Neuse Road", "name": "E.M. Johnson Water Treatment Plant"}}, {"pk": 10, "model": "rooms.building", "fields": {"address": "3304 Lake Woodard Dr", "name": "Lake Woodard Annex"}}, {"pk": 11, "model": "rooms.building", "fields": {"address": "3050 N New Hope Road", "name": "Marsh Creek"}}, {"pk": 12, "model": "rooms.building", "fields": {"address": "4501 Atlantic Avenue", "name": "RPD Detective Campus"}}, {"pk": 13, "model": "rooms.building", "fields": {"address": "4104 Poole Rd", "name": "Raleigh Transit Operations Facility"}}, {"pk": 14, "model": "rooms.building", "fields": {"address": "6716 Six Forks Road", "name": "Raleigh Police Department Headquarters"}}, {"pk": 15, "model": "rooms.building", "fields": {"address": "601 Hutton Street", "name": "Raleigh Police Department SouthWest District"}}, {"pk": 16, "model": "rooms.building", "fields": {"address": "5380 Raynor Road | Garner  NC 27529", "name": "South Raleigh Field Operations Center"}}]
+[
+{
+    "fields": {
+        "name": "Raleigh Municipal Building",
+        "address": "222 W. Hargett Street"
+    },
+    "model": "rooms.building",
+    "pk": 1
+},
+{
+    "fields": {
+        "name": "One Exchange Plaza",
+        "address": "1 Exchange Plaza"
+    },
+    "model": "rooms.building",
+    "pk": 2
+},
+{
+    "fields": {
+        "name": "Dillon Building",
+        "address": "310 W Martin Street"
+    },
+    "model": "rooms.building",
+    "pk": 3
+},
+{
+    "fields": {
+        "name": "Professional Building",
+        "address": "127 W Hargett Street"
+    },
+    "model": "rooms.building",
+    "pk": 4
+},
+{
+    "fields": {
+        "name": "Urban Design Center",
+        "address": "220 Fayetteville Street"
+    },
+    "model": "rooms.building",
+    "pk": 5
+},
+{
+    "fields": {
+        "name": "Wilders Grove Solid Waste Facility",
+        "address": "630 Beacon Lake Drive"
+    },
+    "model": "rooms.building",
+    "pk": 6
+},
+{
+    "fields": {
+        "name": "Neuse River Waste Water Treatment Plant",
+        "address": "8500 Battle Bridge Road"
+    },
+    "model": "rooms.building",
+    "pk": 7
+},
+{
+    "fields": {
+        "name": "Dempsey E. Benton Water Treatment Plant",
+        "address": "2315 Benson Road"
+    },
+    "model": "rooms.building",
+    "pk": 8
+},
+{
+    "fields": {
+        "name": "E.M. Johnson Water Treatment Plant",
+        "address": "10301 Falls of Neuse Road"
+    },
+    "model": "rooms.building",
+    "pk": 9
+},
+{
+    "fields": {
+        "name": "Lake Woodard Annex",
+        "address": "3304 Lake Woodard Dr"
+    },
+    "model": "rooms.building",
+    "pk": 10
+},
+{
+    "fields": {
+        "name": "Marsh Creek",
+        "address": "3050 N New Hope Road"
+    },
+    "model": "rooms.building",
+    "pk": 11
+},
+{
+    "fields": {
+        "name": "RPD Detective Campus",
+        "address": "4501 Atlantic Avenue"
+    },
+    "model": "rooms.building",
+    "pk": 12
+},
+{
+    "fields": {
+        "name": "Raleigh Transit Operations Facility",
+        "address": "4104 Poole Rd"
+    },
+    "model": "rooms.building",
+    "pk": 13
+},
+{
+    "fields": {
+        "name": "Raleigh Police Department Headquarters",
+        "address": "6716 Six Forks Road"
+    },
+    "model": "rooms.building",
+    "pk": 14
+},
+{
+    "fields": {
+        "name": "Raleigh Police Department SouthWest District",
+        "address": "601 Hutton Street"
+    },
+    "model": "rooms.building",
+    "pk": 15
+},
+{
+    "fields": {
+        "name": "South Raleigh Field Operations Center",
+        "address": "5380 Raynor Road | Garner  NC 27529"
+    },
+    "model": "rooms.building",
+    "pk": 16
+}
+]
