@@ -5,6 +5,7 @@ from rooms.api import serializers, renderers
 
 class BaseViewSet(viewsets.ModelViewSet):
     renderer_classes = (renderers.JSONRenderer,)
+    lookup_field = 'slug'
 
 
 class BuildingViewSet(BaseViewSet):
