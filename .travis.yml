@@ -1,17 +1,26 @@
 sudo: required
 services:
-  - docker
+- docker
 language: python
 python:
-    - "2.7"
+- '2.7'
 before_install:
-    - curl -L https://github.com/docker/compose/releases/download/1.4.0/docker-compose-`uname -s`-`uname -m` > docker-compose
-    - chmod +x docker-compose
-    - sudo mv docker-compose /usr/local/bin
-install: 
-    - pip install -r requirements.txt
-script: 
-    - docker-compose up -d
-    - docker-compose run gunicorn python manage.py migrate
-    - docker-compose run gunicorn python manage.py loaddata building room
-    - docker-compose run gunicorn python manage.py test
+- curl -L https://github.com/docker/compose/releases/download/1.4.0/docker-compose-`uname
+  -s`-`uname -m` > docker-compose
+- chmod +x docker-compose
+- sudo mv docker-compose /usr/local/bin
+install:
+- pip install -r requirements.txt
+script:
+- docker-compose up -d
+- docker-compose run gunicorn python manage.py migrate
+- docker-compose run gunicorn python manage.py loaddata building room
+- docker-compose run gunicorn python manage.py test
+skip_cleanup: true
+deploy:
+  provider: releases
+  api_key:
+    secure: lPYwYmnqNZDY+sflkCfdDEynOrb2kbWkadsjf8GXGGef1TlzM8VdKVUuU2AN81kHT+ReJHuKXsFy682h4IHUSm7cHb0qLiAzpxSvdTPSm6O+onhsxRABiOtffIyKZgXskxgNLc1PL6Ugen3/Z+oqTFYEA8b4oUxErM5pzq9MLiEonUXxBlH7gY9zCP40hpbzx2ctBq2CcO3/U7z51OWfYoizwZEGa3cNLKpBW3EXo2LdMyPUJ9P2ahp/F1ujSCzCZWIoE1g4X2TEfUCFAGuA+W5Wjg1jweL4D+pvkotTeP1eiASDCwm8CirmiDzmmaKxIxbDYysvKdk1x9t7pq1WR1H3mn/U7VS63RrpN6Q1/dnq8ok/n3PRed+AnD1EavtARlShH4oJIC5soeqoHdswX+CSnVrsV5Mp3MNnAu3+sAk/1DSvfA/M4WkvXK96AgRifQ5W42M/nApWrCEhn8/pnlGC6fHafH3mLwEW7m/WkbNgdlAV4MjsKPMQog7UqAs/BU8mBlHgsQNE5i+6sCqnOAjURedcvxUaApsUFNHOr1KBdMmsscwFZHI/G35YAxI/BuaIwoh0IY4NPNuYGx9j4rPtNdXFOmDrc0otgXLepQElPCzfk+4S5xSsRCGkZvxDe2HOF3L2n8EKGg2EVizdbCFI/q3+yc+nRZfHhQPPSIY=
+  file: conference-room-api-${TRAVIS_TAG}.tar.gz
+  on:
+    tags: true
